@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .letter {
+    opacity: 0;
+    display: inline-block;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  /* Tailwind CSS classes for spacing (optional) */
+  .space {
+    width: 0.5rem; /* Adjust the width of spaces between letters */
+  }
+  

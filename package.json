@@ -1,0 +1,41 @@
+{
+  "name": "prac",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.10.4",
+    "@enzymefinance/abis": "^0.4.5",
+    "@enzymefinance/sdk": "^0.8.15",
+    "@rainbow-me/rainbowkit": "^2.0.7",
+    "@reduxjs/toolkit": "^2.2.5",
+    "@tanstack/react-query": "^5.32.1",
+    "@wagmi/core": "^2.10.5",
+    "axios": "^1.7.2",
+    "muteswitch-sdk": "https://github.com/muteio/muteswitch-sdk",
+    "next": "14.2.3",
+    "next-themes": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-iframe": "^1.8.5",
+    "react-redux": "^9.1.2",
+    "viem": "^2.10.9",
+    "wagmi": "^2.9.8",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

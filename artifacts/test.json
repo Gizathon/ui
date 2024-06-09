@@ -1,0 +1,33 @@
+{
+    "destAmount": "4171564266713601",
+    "destToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+    "srcAmount": "16084560",
+    "srcToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "txOrigin": "0x32efef8899b23899ff179b446ef7564e0de84cba",
+    "userAddress": "0x32efef8899b23899ff179b446ef7564e0de84cba",
+    "partner": "enzyme",
+    "priceRoute": {
+      "blockNumber": 20040629,
+      "network": 1,
+      "srcToken": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "srcDecimals": 6,
+      "srcAmount": "16084560",
+      "destToken": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "destDecimals": 18,
+      "destAmount": "4213701279508687",
+      "bestRoute": [],
+      "gasCostUSD": "10.335968",
+      "gasCost": "169300",
+      "side": "SELL",
+      "version": "5",
+      "contractAddress": "0xDEF171Fe48CF0115B1d80b88dc8eAB59176FEe57",
+      "tokenTransferProxy": "0x216b4b4ba9f3e719726886d34a177484278bfcae",
+      "contractMethod": "simpleSwap",
+      "partnerFee": 0,
+      "srcUSD": "16.1006445600",
+      "destUSD": "16.0702560768",
+      "partner": "enzyme",
+      "maxImpactReached": false,
+      "hmac": "94587d0fa2b1febd6fd53bbcfddc58d3e8dbcb37"
+    }
+  }
