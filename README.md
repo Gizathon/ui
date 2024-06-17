@@ -1,41 +1,24 @@
-> Find the deployed codebase (same only but has timely commits) here: https://github.com/brijeshagal/gizathon-ui
+## Token Trust
 
+A Verifiable Rug Pull predictor leveraging Giza and Enzyme for operations.
+Deployed at: https://token-trust.vercel.app/
+<img width="1512" alt="image" src="https://github.com/Gizathon/ui/assets/87767138/f2e275cb-71d8-4e5d-aa51-27b50982e970">
 
-----------------------------------------------------------------
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Token Trust currently leverages Uniswap's LP's to fetch historical data of the token from  supported chains (currently mainnet). 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- The data from Uniswap is filtered and algorithmically worked on to generate input parameters for the Giza ML Agent.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- The giza agent runs the zkMLM model and returns with the inference result with a request-id which the users can use the giza-sdk to verify on own, bringing a trustless system where end users can trust the inference.
+<img width="1509" alt="image" src="https://github.com/Gizathon/ui/assets/87767138/5d8c5350-863c-43ed-9d92-928c51e19985">
 
-## Deploy on Vercel
+- According to the prediction, the vault manager on enzyme can handle assets to invest in the token with low rug possibility, or cautions high risk tokens. 
+<img width="1512" alt="image" src="https://github.com/Gizathon/ui/assets/87767138/35bf074c-ced0-46e4-ad7a-d1f07ae708de">
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-  Images are only for demo purposes
+<img width="1512" alt="image" src="https://github.com/Gizathon/ui/assets/87767138/086c2ad5-780f-410e-8d78-ae174130aee3">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Made with ❤️ for Gizathon at Encode Club 🔵.
