@@ -11,7 +11,7 @@ Token Trust currently leverages Uniswap's LP's to fetch historical data of the t
 
 - The data from Uniswap is filtered and algorithmically worked on to generate input parameters for the Giza ML Agent.
 
-- The giza agent runs the zkMLM model and returns with the inference result with a request-id which the users can use the giza-sdk to verify on own, bringing a trustless system where end users can trust the inference.
+- The Giza zkML model runs and returns with the inference result with a request-id which the users can use the giza-sdk to verify on own, bringing a trustless system where end users can trust the inference.
 <img width="1509" alt="image" src="https://github.com/Gizathon/ui/assets/87767138/5d8c5350-863c-43ed-9d92-928c51e19985">
 
 - According to the prediction, the vault manager on enzyme can handle assets to invest in the token with low rug possibility, or cautions high risk tokens. 
